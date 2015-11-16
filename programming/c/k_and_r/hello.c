@@ -21,7 +21,7 @@ cc -std=c99 -Werror=implicit hello.c
 
 #include <stdio.h>
 
-int main1(void) {
+int main(void) {
   /* If you compile this with -std=c89 the exit code would be "13"
      because thats the amount of characters printf saw and that is
      its return value. You should be using -std=c99 to prevent this.
